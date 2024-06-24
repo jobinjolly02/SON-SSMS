@@ -1,0 +1,114 @@
+.printable-content {
+    width: 100%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+  }
+  
+  .print-header, .print-footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .print-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .print-header h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .print-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .print-table th, .print-table td {
+    border: 1px solid #ddd;
+    padding: 6px;     text-align: center;
+    white-space: nowrap;   }
+  
+  .print-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .print-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .print-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .print-footer {
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+  .print-btn {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 500;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.065);
+    transition: all 0.3s;
+  }
+  .printer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 100%;
+  }
+  .printer-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .printer-container svg {
+    width: 100%;
+    height: auto;
+    transform: translateY(4px);
+  }
+  .printer-page-wrapper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .printer-page {
+    width: 70%;
+    height: 10px;
+    border: 1px solid black;
+    background-color: white;
+    transform: translateY(0px);
+    transition: all 0.3s;
+    transform-origin: top;
+  }
+  .print-btn:hover .printer-page {
+    height: 16px;
+    background-color: rgb(239, 239, 239);
+  }
+  .print-btn:hover {
+    background-color: rgb(239, 239, 239);
+  }
+  

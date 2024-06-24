@@ -1,0 +1,114 @@
+.finance-dashboard {
+    padding: 20px;
+    background: linear-gradient(219deg, rgba(153, 230, 255, 1) 31%, rgba(44, 203, 255, 1) 100%);
+    font-family: 'Matter';
+    border: 5px solid black;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .stat-item-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #d3a1ff;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+  }
+  .stat-item-5:hover{
+    background-color: #b567fa;
+    transform: scale(1.10);
+    font-weight: bold;
+  }
+
+  .stat-item-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #58f78d;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .stat-item-6:hover{
+    background-color: rgb(22, 196, 30);
+    transform: scale(1.10);
+    font-weight: bold;
+  }
+
+  .stat-item-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9738e;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .stat-item-7:hover{
+    background-color: #ec4d6d;
+    transform: scale(1.10);
+    font-weight: bold;
+  }
+
+  .stat-item-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color:  #ffbc58;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .stat-item-8:hover{
+    background-color: rgb(255, 153, 0);
+    transform: scale(1.10);
+    font-weight: bold;
+  }
+  .stat-count {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .stat-label {
+    font-size: 30px;
+  }
+  
+  .dashtext{
+    text-align: center;
+  }
+
+  @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.stat-count,
+.stat-label {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1.5s steps(40, end) alternate;
+}
+
+@media (max-width: 768px) {
+	.dashboard {
+		width: fit-content;
+	}
+}

@@ -1,0 +1,28 @@
+.export-btn {
+    padding: 10px 20px;
+    background-color: #000000; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 26px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    font-family: 'Matter';
+    display: none;
+  }
+  
+  
+  .export-btn:hover {
+    color: #7cf16aa5;
+    border: 2px solid black;
+  }
+  
+  .export-btn:focus {
+    outline: none; 
+  }
+  
+  .export-btn:active {
+    background-color: #3e8e41; 
+  }
+  
